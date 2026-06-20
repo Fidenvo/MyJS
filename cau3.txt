@@ -1,0 +1,18 @@
+Trả lời câu hỏi tự vấn
+Cách nào nhanh minh họa nhất?
+
+Trả lời: Cách Inline là cách nhanh nhất để minh họa hoặc kiểm tra (test) nhanh một đoạn mã ngắn, bởi vì bạn có thể viết ngay câu lệnh vào trong thẻ HTML mà không cần tạo hàm, không cần đặt ID và không cần tạo file mới.
+Cách nào phù hợp dự án thực tế hơn?
+Trả lời: Cách External là lựa chọn phù hợp và bắt buộc cho các dự án thực tế (production).
+
+Vì sao nên ưu tiên external?
+Trả lời: Có 3 lý do cốt lõi để ưu tiên sử dụng External JavaScript:
+
+Dễ quản lý và bảo trì (Separation of Concerns): Nó giúp tách biệt rõ ràng giữa cấu trúc giao diện (HTML), định dạng (CSS) và logic xử lý (JavaScript).
+Khi code phình to lên hàng nghìn dòng, việc tìm và sửa lỗi trong một file .js tập trung sẽ dễ dàng hơn nhiều so với việc đi lục lọi từng dòng HTML.
+
+Tái sử dụng mã nguồn (Reusability): Một file .js sau khi viết xong có thể được nhúng vào hàng chục, hàng trăm trang HTML khác nhau trong cùng một hệ 
+thống mà không cần phải copy-paste lại code.
+Tối ưu tốc độ tải trang (Caching): Trình duyệt web có cơ chế lưu trữ (cache) các file tĩnh như .js và .css. Ở lần đầu tiên người dùng truy cập,
+ file sẽ được tải về. Sang các trang tiếp theo, trình duyệt sẽ lấy trực tiếp file đó từ bộ nhớ đệm ra để chạy chứ không cần tải lại từ máy chủ,
+giúp trang web mượt mà và tiết kiệm băng thông hơn.
