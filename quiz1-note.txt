@@ -1,0 +1,3 @@
+Câu 1 : JavaScript trong trang web chủ yếu phụ trách Xử lý tương tác và hành vi
+câu 2:const  dùng cho giá trị không muốn gán lại
+Câu 3 Toán tử "===" nên ưu tiên để so sánh nghiêm ngặt
