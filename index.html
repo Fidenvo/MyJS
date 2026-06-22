@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini MyJS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#lien-he">Liên hệ</a>
+    <a href="events.html">Events</a>
+  </nav>
+
+  <div class="box">
+
+    <h2 id="title">Xin chào JavaScript</h2>
+
+    <button id="btnChange">Đổi nội dung</button>
+    <button id="btnToggle">Ẩn/hiện mô tả</button>
+
+    <p id="mo-ta">Đây là đoạn mô tả để em thực hành DOM và sự kiện.</p>
+
+    <section id="gioi-thieu">
+      <h3>Giới thiệu</h3>
+      <p>Website thực hành JavaScript cơ bản: DOM, sự kiện, form.</p>
+    </section>
+
+    <section id="lien-he">
+      <h3>Liên hệ</h3>
+      <form id="contactForm">
+        <input type="text" id="fullName" placeholder="Nhập họ tên">
+        <button type="submit">Gửi</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
