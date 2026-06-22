@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
 
+  <div class="box">
+    <h2>Event Playground</h2>
+
+    <!-- click -->
+    <h3>1. Click</h3>
+    <button id="btnClick">Bấm vào đây</button>
+    <p id="clickResult"></p>
+
+    <!-- change -->
+    <h3>2. Change</h3>
+    <select id="colorPicker">
+      <option value="">Chọn màu</option>
+      <option value="red">Đỏ</option>
+      <option value="blue">Xanh</option>
+      <option value="green">Xanh lá</option>
+    </select>
+    <p id="colorResult"></p>
+
+    <!-- keyup -->
+    <h3>3. Keyup</h3>
+    <input type="text" id="nameInput" placeholder="Gõ tên vào đây">
+    <p id="preview"></p>
+
+    <!-- submit -->
+    <h3>4. Submit</h3>
+    <form id="eventForm">
+      <input type="text" id="formInput" placeholder="Nhập gì đó">
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="submitResult"></p>
+
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
